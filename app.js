@@ -1,13 +1,17 @@
 'use strict';
 const translations = {
   zh: {
-    skip: '跳转到正文', navAbout: '关于', navResearch: '研究方向', navPublications: '学术论文', navConnect: '联系', profile: '学术主页', name: '朱逸飞', role: '博士研究生', affiliation: '东北大学',
-    bio1: '朱逸飞是日本东北大学信息科学研究科的博士研究生，导师为北村喜文教授，同时与香港大学的 Taku Komura 教授开展合作研究。',
+    skip: '跳转到正文', navAbout: '关于', navResearch: '研究方向', navPublications: '学术论文', navConnect: '联系', profile: '学术主页', name: '朱逸飞', affiliation: '东北大学',
+    bio1: '朱逸飞是日本东北大学信息科学研究科的博士研究生，导师为北村喜文教授，与香港大学的 Taku Komura 教授开展合作研究，目前正在腾讯 Motus AI 团队实习。',
     bio2: '他的研究位于计算机图形学、计算机视觉与生成式建模的交叉领域，专注于人体动作生成与富有表现力的数字角色。',
     bio3: '他探索如何将语言、语音与协调的身体、手部及面部动作相结合，使虚拟角色能够自然地运动，并通过动作进行富有表现力的交流。',
     bio4: '他的工作关注动作生成背后的表征与学习机制，尤其是潜空间几何、扩散模型和流匹配如何影响生成动作的质量与可控性。',
     bio5: '他目前的研究兴趣包括实时具身对话：让虚拟角色在全双工交互中，能够持续地说话、倾听并生成自然动作。',
-    publicationsTitle: '代表性论文', allPublications: '查看 Google Scholar', dynaDescription: '在小波空间进行扩散建模，生成长序列且富有表现力的身体、手部与面部动作，并以统一接口实现动作续接和可控编辑。', moraeDescription: '构建紧凑的动作表征，改善频谱条件与解码器敏感性，为高质量的文本驱动动作流匹配生成提供支持。',
+    publicationsTitle: '论文', allPublications: '查看 Google Scholar', dynaDescription: '在小波空间进行扩散建模，生成长序列且富有表现力的身体、手部与面部动作，并以统一接口实现动作续接和可控编辑。', moraeDescription: '通过预测被遮挡的关节轨迹学习动作特征，再将其压缩到紧凑的潜空间，用流匹配实现文本驱动的动作生成。',
+    preprint: 'arXiv 预印本',
+    retargetDescription: '通过调整关节姿势和局部变形蒙皮网格，实时修复动画角色的身体穿模。',
+    conceptErasureDescription: '评估文本生成图像的扩散模型在擦除某个概念后，仍能生成该概念的难易程度。',
+    deeponetDescription: '使用 DeepONet 加速不同光纤参数和输入脉冲条件下的光纤脉冲传播模拟。',
     paper: '论文', project: '项目主页', code: '代码', copy: '复制引用', motion: '人体动作生成', conversation: '具身对话', models: '生成式模型', profiles: '学术与代码', institution: '所属机构', school: '信息科学研究科', location: '日本 · 仙台', rights: '保留所有权利。', backTop: '返回顶部 ↑'
   }
 };
